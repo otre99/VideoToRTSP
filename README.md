@@ -55,12 +55,12 @@ Use this command for visualize the RTSP stream:
 gst-launch-1.0 rtspsrc location=rtsp://127.0.0.1:8100/619db3b2-a4ca-11ed-96ba-5fd91382719b latency=10 ! decodebin ! videoconvert ! autovideosink
 --------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------
-source: /home/programs/DATA/sample-videos-master/people-detection.mp4
+source: videos/sample00.mp4
 Use this command for visualize the RTSP stream:
 gst-launch-1.0 rtspsrc location=rtsp://127.0.0.1:8200/619db3b3-a4ca-11ed-96ba-5fd91382719b latency=10 ! decodebin ! videoconvert ! autovideosink
 --------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------
-source: /home/programs/DATA/sample-videos-master/worker-zone-detection.mp4
+source: videos/sample01.mp4
 Use this command for visualize the RTSP stream:
 gst-launch-1.0 rtspsrc location=rtsp://127.0.0.1:8300/619db3b4-a4ca-11ed-96ba-5fd91382719b latency=10 ! decodebin ! videoconvert ! autovideosink
 --------------------------------------------------------------------------------------------------------------------------------
